@@ -6,7 +6,7 @@ This is my personal portfolio website, built to showcase my projects, skills, an
 
 👉 View Portfolio
 
- https://Maryam-oss.github.io/maryam-portfolio/
+ [https://Maryam-oss.github.io/maryam-portfolio/](https://Maryam-oss.github.io/maryam-portfolio/)
  
 ✨ About Me
 
@@ -14,25 +14,18 @@ I’m a Data Science student who enjoys learning by building real-world projects
 
 🛠️ Tech Stack
 
-Frontend: React, Vite, Tailwind CSS
-
-Programming: JavaScript
-
-Tools: Git, GitHub
-
-Deployment: Vercel / GitHub Pages
+- Frontend: React, Vite, Tailwind CSS
+- Programming: JavaScript
+- Tools: Git, GitHub
+- Deployment: GitHub Pages
 
 📂 Features
 
-Clean and modern UI
-
-Fully responsive design
-
-Projects showcase section
-
-About me and skills section
-
-Contact links for easy reach
+- Clean and modern UI
+- Fully responsive design
+- Projects showcase section
+- About me and skills section
+- Contact links for easy reach
 
 📁 Project Structure
 maryam-portfolio/
@@ -55,32 +48,24 @@ Clone the repository:
 git clone https://github.com/Maryam-oss/maryam-portfolio.git
 
 
-Navigate to the project folder:
-
-cd maryam-portfolio
-
-
-Install dependencies:
+- Navigate to the project folder:
+- cd maryam-portfolio
+- Install dependencies:
 
 npm install
 
-
-Start the development server:
+- Start the development server:
 
 npm run dev
 
-
-The app will run at:
-
+- The app will run at:
 http://localhost:5173
 
 📬 Contact
 
-GitHub: https://github.com/Maryam-oss
-
-LinkedIn: https://www.linkedin.com/in/maryam-manahil-98450b368/
-
-Portfolio:  https://Maryam-oss.github.io/maryam-portfolio/
+- GitHub: https://github.com/Maryam-oss
+- LinkedIn: https://www.linkedin.com/in/maryam-manahil-98450b368/
+- Portfolio:  https://Maryam-oss.github.io/maryam-portfolio/
 
 📌 Note
 
