@@ -9,6 +9,8 @@ import { portfolioData } from './data/portfolio';
 
 import Navbar from './components/Navbar';
 
+import Hobbies from './components/Hobbies';
+
 function App() {
   return (
     <div className="font-sans antialiased text-primary bg-background selection:bg-accentLight selection:text-accentDark">
@@ -16,6 +18,7 @@ function App() {
       <Hero data={portfolioData.hero} />
       <About data={portfolioData.about} />
       <Skills data={portfolioData.skills} />
+      <Hobbies data={portfolioData.hobbies} />
       <Projects data={portfolioData.projects} />
       <Contact data={portfolioData.contact} />
       <Footer />

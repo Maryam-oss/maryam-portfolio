@@ -12,6 +12,23 @@ export const portfolioData = {
         { category: "Databases", items: ["MongoDB", "Oracle SQL"] },
         { category: "Tools", items: ["Git", "GitHub", "VS Code"] },
     ],
+    hobbies: [
+        {
+            title: "Photography",
+            description: "Capturing moments and exploring visual storytelling.",
+            icon: "📷"
+        },
+        {
+            title: "Editing",
+            description: "Creating engaging content through video and photo editing.",
+            icon: "🎬"
+        },
+        {
+            title: "Exploring Tech",
+            description: "Staying updated with the latest trends in technology.",
+            icon: "💡"
+        }
+    ],
     projects: [
         {
             title: "Pharmacy Management System",

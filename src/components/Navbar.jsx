@@ -14,7 +14,9 @@ const Navbar = ({ data }) => {
     const navLinks = [
         { name: 'Home', href: '#home' },
         { name: 'About', href: '#about' },
+        { name: 'About', href: '#about' },
         { name: 'Skills', href: '#skills' },
+        { name: 'Hobbies', href: '#hobbies' },
         { name: 'Projects', href: '#projects' },
         { name: 'Contact', href: '#contact' },
     ];
@@ -24,9 +26,9 @@ const Navbar = ({ data }) => {
             <div className={`max-w-7xl mx-auto px-6`}>
                 <div className={`
           flex justify-between items-center 
-          bg-white/70 backdrop-blur-md border border-white/20 shadow-lg 
+          bg-white/80 backdrop-blur-xl border border-white/40 shadow-lg 
           rounded-full px-6 py-3 transition-all duration-300
-          ${scrolled ? 'bg-white/90 shadow-xl' : ''}
+          ${scrolled ? 'bg-white/95 shadow-2xl scale-[0.98]' : 'bg-white/70'}
         `}>
                     <a href="#" className="font-heading font-bold text-2xl text-primary tracking-tight">
                         Mary<span className="text-accent">am.</span>
