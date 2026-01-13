@@ -1,16 +1,89 @@
-# React + Vite
+🌐 Maryam’s Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website, built to showcase my projects, skills, and learning journey as a Data Science student with an interest in full-stack development. The portfolio highlights my work, creativity, and passion for building real-world applications.
 
-Currently, two official plugins are available:
+🚀 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 View Portfolio
 
-## React Compiler
+ https://Maryam-oss.github.io/maryam-portfolio/
+ 
+✨ About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I’m a Data Science student who enjoys learning by building real-world projects. I’m interested in full-stack development and love solving problems through hands-on practice. Outside of tech, I enjoy photography, editing, and creating visual content.
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend: React, Vite, Tailwind CSS
+
+Programming: JavaScript
+
+Tools: Git, GitHub
+
+Deployment: Vercel / GitHub Pages
+
+📂 Features
+
+Clean and modern UI
+
+Fully responsive design
+
+Projects showcase section
+
+About me and skills section
+
+Contact links for easy reach
+
+📁 Project Structure
+maryam-portfolio/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+
+▶️ Getting Started (Run Locally)
+
+Clone the repository:
+
+git clone https://github.com/Maryam-oss/maryam-portfolio.git
+
+
+Navigate to the project folder:
+
+cd maryam-portfolio
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm run dev
+
+
+The app will run at:
+
+http://localhost:5173
+
+📬 Contact
+
+GitHub: https://github.com/Maryam-oss
+
+LinkedIn: https://www.linkedin.com/in/maryam-manahil-98450b368/
+
+Portfolio:  https://Maryam-oss.github.io/maryam-portfolio/
+
+📌 Note
+
+This portfolio is continuously improving as I learn new technologies and build more projects.
+
+✨ Thank you for visiting my portfolio!

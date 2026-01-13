@@ -2,25 +2,35 @@ import React from 'react';
 
 const Skills = ({ data }) => {
     return (
-        <section id="skills" className="py-20 px-4 bg-soft-white">
-            <div className="max-w-5xl mx-auto">
-                <div className="text-center mb-16">
-                    <h2 className="text-3xl font-bold text-primary mb-4 relative inline-block">
+        <section id="skills" className="py-24 px-6 bg-gradient-to-b from-white to-background relative overflow-hidden">
+            {/* Decorative Elements */}
+            <div className="absolute top-10 right-0 w-64 h-64 bg-accent/5 rounded-full blur-3xl"></div>
+
+            <div className="max-w-6xl mx-auto relative z-10">
+                <div className="text-center mb-20">
+                    <h2 className="text-4xl md:text-5xl font-bold font-heading text-primary mb-6 relative inline-block">
                         Technical Skills
-                        <span className="absolute bottom-0 left-0 w-full h-1 bg-accent rounded-full opacity-50"></span>
+                        <span className="absolute -bottom-2 left-0 w-full h-1.5 bg-accent rounded-full opacity-70"></span>
                     </h2>
-                    <p className="text-gray-500">My technical toolkit</p>
+                    <p className="text-lg text-secondary max-w-2xl mx-auto">
+                        A comprehensive overview of my technical expertise and tools.
+                    </p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {data.map((category, index) => (
-                        <div key={index} className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100">
-                            <h3 className="text-xl font-semibold text-primary mb-4">{category.category}</h3>
-                            <div className="flex flex-wrap gap-2">
+                        <div
+                            key={index}
+                            className="bg-white/60 backdrop-blur-xl p-8 rounded-3xl shadow-sm border border-white/50 hover:shadow-xl hover:border-accent/30 transition-all duration-300 group hover:-translate-y-2"
+                        >
+                            <h3 className="text-2xl font-bold font-heading text-primary mb-6 group-hover:text-accent transition-colors">
+                                {category.category}
+                            </h3>
+                            <div className="flex flex-wrap gap-3">
                                 {category.items.map((skill, idx) => (
                                     <span
                                         key={idx}
-                                        className="px-3 py-1 text-sm bg-accent/30 text-indigo-700 rounded-lg font-medium"
+                                        className="px-4 py-2 text-sm bg-white border border-gray-100 text-gray-700 rounded-xl font-medium shadow-sm group-hover:bg-accent/10 group-hover:text-accentDark group-hover:border-accent/20 transition-all duration-300"
                                     >
                                         {skill}
                                     </span>

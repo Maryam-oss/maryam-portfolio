@@ -7,9 +7,12 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { portfolioData } from './data/portfolio';
 
+import Navbar from './components/Navbar';
+
 function App() {
   return (
-    <div className="font-sans antialiased text-gray-900 bg-background selection:bg-indigo-100 selection:text-indigo-900">
+    <div className="font-sans antialiased text-primary bg-background selection:bg-accentLight selection:text-accentDark">
+      <Navbar data={portfolioData} />
       <Hero data={portfolioData.hero} />
       <About data={portfolioData.about} />
       <Skills data={portfolioData.skills} />

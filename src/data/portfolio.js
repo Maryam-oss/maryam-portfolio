@@ -1,16 +1,14 @@
 export const portfolioData = {
     hero: {
-        name: "Maryam",
-        title: "Data Science Student | Full-Stack Developer",
-        tagline: "Building real-world applications with clean code and scalable architecture",
+        name: "Maryam Manahil",
+        title: "Data Science Student | Learning Full-Stack Development | Tech Enthusiast",
+        tagline: "Turning ideas into meaningful projects, one line of code at a time",
     },
     about: {
-        description: "I am a Data Science student with a strong passion for full-stack development. My expertise lies in building scalable applications using the MERN stack and Java technologies. I love solving complex problems and working with databases like MongoDB and Oracle SQL.",
+        description: "I’m a Data Science student who enjoys learning by building real-world projects. I’m interested in full-stack development and love solving problems through hands-on practice. Outside of tech, I enjoy photography, editing, and capturing creative moments.",
     },
     skills: [
         { category: "Languages", items: ["Java", "C++", "JavaScript", "SQL", "python", "R"] },
-        { category: "Frontend", items: ["HTML", "CSS"] },
-        { category: "Backend", items: ["Node.js", "Express.js"] },
         { category: "Databases", items: ["MongoDB", "Oracle SQL"] },
         { category: "Tools", items: ["Git", "GitHub", "VS Code"] },
     ],
