@@ -4,12 +4,30 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 100px;
-  /* Offset for fixed navbar */
+  scroll-padding-top: 0;
 }
 
 body {
-  background-color: #f8f9fa;
-  color: #374151;
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  @apply bg-background text-primary;
+  background-image: theme('backgroundImage.noise');
+}
+
+/* Bento Card Utility */
+@layer components {
+  .bento-card {
+    @apply bg-surface/80 border border-white/10 backdrop-blur-md rounded-3xl p-8 transition-all duration-300 hover:bg-surface hover:border-white/20 hover:shadow-2xl hover:shadow-black/50;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/20 rounded-full hover:bg-white/30;
 }

@@ -2,39 +2,39 @@ import React from 'react';
 
 const Hero = ({ data }) => {
     return (
-        <section id="home" className="relative min-h-screen flex flex-col justify-center items-center text-center px-4 overflow-hidden bg-background">
+        <section id="home" className="relative min-h-screen flex flex-col justify-center items-center text-center px-4 pt-48 overflow-hidden bg-background">
 
-            {/* Animated Background Blobs */}
-            <div className="absolute top-0 left-1/4 w-96 h-96 bg-accent/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob"></div>
-            <div className="absolute top-0 right-1/4 w-96 h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-2000"></div>
-            <div className="absolute -bottom-32 left-1/3 w-96 h-96 bg-pink-200 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-4000"></div>
+            {/* Glow Effect */}
+            <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-accent/20 blur-[120px] rounded-full pointer-events-none -translate-y-1/2 translate-x-1/2"></div>
 
-            <div className="relative z-10 max-w-4xl space-y-8 animate-fade-in-up">
-
-                <h2 className="text-xl md:text-2xl font-medium text-accent tracking-wide uppercase">
-                    {data.title}
-                </h2>
-
-                <h1 className="text-6xl md:text-8xl font-extrabold font-heading text-primary tracking-tight leading-tight">
-                    Hello, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-purple-600">{data.name}</span>.
+            <div className="relative z-10 flex flex-col items-start text-left max-w-4xl">
+                <h1 className="text-5xl md:text-8xl font-black font-heading tracking-tight leading-tight text-primary mb-6">
+                    Hi, I'm <br />
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-purple-500">
+                        {data.name}
+                    </span>.
                 </h1>
 
-                <p className="text-lg md:text-2xl text-secondary max-w-2xl mx-auto leading-relaxed font-light">
+                <p className="text-xl md:text-2xl text-white font-medium mb-4">
+                    {data.title}
+                </p>
+
+                <p className="text-lg text-secondary max-w-xl font-light leading-relaxed mb-10">
                     {data.tagline}
                 </p>
 
-                <div className="flex flex-col sm:flex-row gap-6 justify-center pt-10">
+                <div className="flex flex-wrap gap-4">
                     <a
                         href="#projects"
-                        className="px-10 py-4 bg-primary text-white rounded-full font-semibold shadow-lg hover:shadow-accent/50 hover:bg-black hover:-translate-y-1 transition-all duration-300 transform"
+                        className="px-8 py-4 bg-white text-black rounded-full font-bold hover:bg-accent hover:scale-105 transition-all duration-300"
                     >
-                        View Projects
+                        See My Work
                     </a>
                     <a
                         href="#contact"
-                        className="px-10 py-4 bg-white/80 backdrop-blur-sm text-primary border border-gray-200 rounded-full font-semibold shadow-sm hover:shadow-md hover:border-accent hover:text-accent transition-all duration-300"
+                        className="px-8 py-4 bg-white/5 text-white border border-white/10 rounded-full font-medium hover:bg-white/10 transition-all duration-300 backdrop-blur-md"
                     >
-                        Contact Me
+                        Get in Touch
                     </a>
                 </div>
             </div>
